@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pradeep Paudel Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+
+  <marquee behavior="scroll" direction="left" class="bg-blue-300 py-2 text-white font-semibold">
+    Welcome to Pradeep Paudel's Portfolio | Web Developer & Graphic Designer
+  </marquee>
+
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">PRADEEP PAUDEL</h1>
+      <div class="hidden md:flex gap-6">
+        <a href="home.html" class="hover-underline">Home</a>
+        <a href="about.html" class="hover-underline">About</a>
+        <a href="projects.html" class="hover-underline">Projects</a>
+        <a href="whyme.html" class="hover-underline">Why Me</a>
+        <a href="contact.html" class="hover-underline">Contact</a>
+      </div>
+      <div class="md:hidden">
+        <button id="menu-toggle">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden bg-white px-4 pb-4">
+      <a href="home.html" class="block py-2 hover-underline">Home</a>
+      <a href="about.html" class="block py-2 hover-underline">About</a>
+      <a href="projects.html" class="block py-2 hover-underline">Projects</a>
+      <a href="whyme.html" class="block py-2 hover-underline">Why Me</a>
+      <a href="contact.html" class="block py-2 hover-underline">Contact</a>
+    </div>
+  </header>
+ <section id="#projects" class="text-center py-16">
+   <h3 class="text-2xl font-semibold mb-4 text-center mt-2">Projects</h3>
+  <div class="md:flex items-stretch gap-8 mt-12">
+
+    <div class="md:w-1/2 flex">
+      <img src="image/pr1.jpg" alt="About" class="rounded shadow-md w-full object-cover h-full max-h-[600px]" />
+    </div>
+    
+    <div class="md:w-1/2">
+      <p class="text-gray-700 mb-2 text-justify border border-black rounded shadow-md p-4 m-1">
+    Over the years, I have passionately developed a variety of projects that showcase my ability to merge creativity with technical skills.
+    Each project reflects my commitment to delivering quality, innovation, and user-friendly solutions. Below are some key highlights
+    that define my approach and expertise:
+  </p>
+  
+  <ul class="list-disc list-inside text-left m-10">
+    <li>🌟 <strong>Innovative Solutions:</strong> I love crafting unique, creative solutions tailored to client needs.</li>
+    <li>🖥️ <strong>Full-Stack Development:</strong> Comfortable working both on front-end and back-end technologies.</li>
+    <li>🎨 <strong>Design & Development:</strong> Combining graphic design skills with coding to build beautiful and functional websites.</li>
+    <li>⚡ <strong>Fast & Lightweight:</strong> Prioritize performance to ensure websites load quickly without compromising quality.</li>
+    <li>📱 <strong>Adaptive Layouts:</strong> Websites that adjust smoothly across phones, tablets, and desktops.</li>
+    <li>🧩 <strong>Modular & Scalable Code:</strong> Writing reusable components and scalable architecture for easy future upgrades.</li>
+    <li>🔍 <strong>SEO & Accessibility:</strong> Building sites optimized for search engines and accessible for all users.</li>
+    <li>🔗 <strong>API Integration:</strong> Experience connecting third-party APIs to enrich user experience and functionality.</li>
+    <li>💬 <strong>Clear Communication:</strong> Consistent client collaboration and feedback incorporation for best results.</li>
+    <li>🏆 <strong>Results-Driven:</strong> My projects aim to increase user engagement, conversions, and client satisfaction.</li>
+  </ul>
+    </div>
+  </div>
+  </section>
+   <footer class="bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 py-8">
+  <div class="max-w-4xl mx-auto flex flex-col items-center space-y-4 px-4 text-center">
+    
+    <img src="image/4.jpg" alt="Pradeep Logo" class="w-16 h-16 rounded-full shadow-lg border border-gray-300" />
+
+    <h2 class="text-xl font-semibold text-gray-800">Pradeep Paudel</h2>
+
+    <div class="flex space-x-6 mt-2">
+
+      <a href="https://www.facebook.com/pradeep07pdl" target="_blank" class="text-blue-600 hover:text-blue-800 transition">
+        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 5 3.657 9.127 8.438 9.878v-6.988H7.898v-2.89h2.54V9.797c0-2.506 1.493-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.242 0-1.63.771-1.63 1.562v1.875h2.773l-.443 2.89h-2.33v6.988C18.343 21.127 22 17 22 12z"/>
+        </svg>
+      </a>
+
+      <a href="https://wa.me/9779765671782" target="_blank" class="text-green-500 hover:text-green-600 transition">
+        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 32 32">
+          <path d="M16 2C8.27 2 2 8.27 2 16a13.91 13.91 0 002.05 7.24L2 30l6.9-1.94A13.92 13.92 0 0016 30c7.73 0 14-6.27 14-14S23.73 2 16 2zm7.9 19.1l-2.1.65a1.4 1.4 0 01-1.6-.6l-.8-1.2a10.2 10.2 0 01-4.8-4.8l-1.2-.8a1.4 1.4 0 01-.6-1.6l.65-2.1a.6.6 0 01.65-.45h1.3a.6.6 0 01.6.45l.65 1.9a.6.6 0 01-.15.6L14 13.2a9.4 9.4 0 004.8 4.8l1.25-.75a.6.6 0 01.6-.15l1.9.65a.6.6 0 01.45.6v1.3a.6.6 0 01-.45.65z"/>
+        </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/pradip-paudel-5512a0372/" target="_blank" class="text-blue-500 hover:text-blue-700 transition">
+        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.07c.67-1.26 2.3-2.6 4.73-2.6 5.06 0 6 3.33 6 7.66V24h-5v-6.4c0-1.53-.03-3.5-2.13-3.5s-2.46 1.67-2.46 3.4V24h-5V8z"/>
+        </svg>
+      </a>
+    </div>
+
+    <p class="text-sm text-gray-500 mt-4">&copy; 2025 Pradeep Paudel. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+
+  document.querySelectorAll('#mobile-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      menu.classList.add('hidden');
+    });
+  });
+</script>
+
+</body>
+</html>
